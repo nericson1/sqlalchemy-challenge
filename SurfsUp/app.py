@@ -33,7 +33,8 @@ app = Flask(__name__)
 @app.route("/")
 def home():
     return (
-        "Welcome to the home page!<br/>"
+        "Welcome to the home page for sqlalchemy-challenge!<br/>"
+        "<br/>"
         "Available Routes:<br/>"
         "/api/v1.0/precipitation<br/>"
         "/api/v1.0/stations<br/>"
@@ -91,7 +92,6 @@ def start_date(start):
 def start_and_end(start, end): 
     range_temp_query = session.query(Measurement.tobs).filter\
             (Measurement.date >= start, Measurement.date <= end).all()
-    #range_temp_query = session.query(Measurement.tobs).filter(Measurement.date >= '2016-08-23', Measurement.date <= '2017-08-23').all()
     temp_list = []
     for temp in range_temp_query:
         temp_list.append(temp[0])
