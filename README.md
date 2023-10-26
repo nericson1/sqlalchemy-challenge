@@ -1,7 +1,7 @@
 # sqlalchemy-challenge
 
 ## Description
-This repository is constructed in two primary parts. Part One is the Jupyter Notebook titled climate_starter_new.ipynb and contains an exploratory analysis of precipitation levels at various monitoring stations across Hawaii. This Jupytner Notebook also contains an exploratory analysis of the monitoring station themselves, taking a look at which station is the most active and what it's collected data looks like. Part Two is the app.py file which uses flask to incorporate the SQLalchemy queries made in climate_starter_new, and displays specific variations of the queries using JSON files.
+This repository is constructed in two primary parts. Part One is the `climate_starter_new.ipynb` Jupyter Notebook and contains an exploratory analysis of precipitation levels at various monitoring stations across Hawaii. This notebook also contains an exploratory analysis of the monitoring station themselves, taking a look at which station is the most active and what it's collected data looks like. Part Two is `app.py` which uses flask to incorporate the SQLalchemy queries made in climate_starter_new, and displays specific variations of the queries using JSON files.
 
 ## References
 ### Check same thread
